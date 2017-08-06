@@ -1,0 +1,9 @@
+I view and step by step at https://github.com/golang/go/wiki/Mobile
+I implemented on mac, if execution could be an error: "./gomobile: no Android NDK path is set. Please run gomobile init with 
+the ndk-bundle installed through the Android SDK manager or with the -ndk flag set."
+Solution: 
+- Download and install Android Studio (https://developer.android.com/studio/install.html)
+- Add NDK (https://developer.android.com/ndk/guides/index.html)
+- Run: ./gomobile init -ndk ~/Library/Android/sdk/ndk-bundle/
+Now you can buil apk file 
+./gomobile build -target=android golang.org/x/mobile/example/basic
