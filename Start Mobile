@@ -7,3 +7,9 @@ Solution:
 - Run: ./gomobile init -ndk ~/Library/Android/sdk/ndk-bundle/
 Now you can buil apk file 
 ./gomobile build -target=android golang.org/x/mobile/example/basic
+Erorr: ./gomobile: exec: "adb": executable file not found in $PATH
+-export PATH="/Users/kimngan/Library/Android/sdk/platform-tools":$PATH
+if you have run OSX on vmware, you can error Intel HAXM installation error in VMWare
+quen you start adroid emulator
+https://stackoverflow.com/questions/32308519/intel-haxm-installation-error-in-vmware
+-check on Virtualize Intel VT-x/EPT or AMD-V/RVI
